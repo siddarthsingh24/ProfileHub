@@ -1,0 +1,45 @@
+name: splash
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.4+4
+  provider: ^5.0.0
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+
+  assets:
+    - assets/splash.png
+    - assets/onboarding.png
+    - assets/SoftAir.png
+    - assets/proceed.png
+    - assets/rectangle.png
+    - assets/profile.png
+    - assets/save.png
+    - assets/confirm.png
+    - assets/name_icon.png
+    - assets/email_icon.png
+    - assets/phone_icon.png
+    - assets/password_icon.png
+    - assets/proceed_bg.png
